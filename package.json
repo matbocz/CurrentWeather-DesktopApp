@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/matbocz/CurrentWeather-DesktopApp/issues"
   },
-  "homepage": "https://github.com/matbocz/CurrentWeather-DesktopApp#readme"
+  "homepage": "https://github.com/matbocz/CurrentWeather-DesktopApp#readme",
+  "dependencies": {
+    "electron": "^8.1.1",
+    "jquery": "^3.4.1"
+  }
 }
