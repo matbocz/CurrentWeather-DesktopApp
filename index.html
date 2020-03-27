@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Current Weather</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Mateusz Boczarski">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" style="text-align: center; padding: 20px;">
+            <h2><b>Current Weather</b></h2>
+            <p>This app get data from <u>openweathermap.org</u></p>
+        </div>
+        <form>
+            <div class="row">
+                <div class="six columns">
+                    <label for="cityInput">Enter city name:</label>
+                    <input class="u-full-width" type="text" placeholder="e.g. Paris" id="cityInput">
+
+                    <input class="button" id="cityButton" type="submit" value="Check the weather!">
+                    <input class="button" type="reset" value="Reset">
+                </div>
+                <div class="six columns" id="resultDiv">
+                    <ul>
+                        Enter city name and click the button.
+                    </ul>
+
+                    <!-- <h5>Weather in Paris, FR <img src="10d.png" alt="asd"></h5>
+                    <table class="u-full-width">
+                        <tbody>
+                            <tr>
+                                <td>Temperature</td>
+                                <td>6 °C</td>
+                            </tr>
+                            <tr>
+                                <td>Wind</td>
+                                <td>1.5 m/s</td>
+                            </tr>
+                            <tr>
+                                <td>Cloudiness</td>
+                                <td>Scattered clouds</td>
+                            </tr>
+                            <tr>
+                                <td>Pressure</td>
+                                <td>1023 hpa</td>
+                            </tr>
+                            <tr>
+                                <td>Humidity</td>
+                                <td>52 %</td>
+                            </tr>
+                            <tr>
+                                <td>Sunrise</td>
+                                <td>05:30</td>
+                            </tr>
+                            <tr>
+                                <td>Sunset</td>
+                                <td>18:12</td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
