@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/matbocz/CurrentWeather-DesktopApp#readme",
   "dependencies": {
-    "electron": "^8.1.1",
+    "electron": "^7.2.1",
     "jquery": "^3.4.1"
   }
 }
