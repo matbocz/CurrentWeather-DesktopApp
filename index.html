@@ -29,8 +29,21 @@
                     <input class="button" id="resetButton" type="reset" value="Reset">
                 </div>
 
-                <div class="six columns" id="resultDiv">
+                <div class="six columns" id="messageDiv">
                     <p>Enter city name and click the button.</p>
+                </div>
+
+                <div class="six columns" id="resultDiv" hidden>
+                    <h5 id="resultH5"></h5>
+
+                    <table class="u-full-width">
+                        <tbody>
+                            <tr>
+                                <td><b>Temperature:</b></td>
+                                <td id="temperatureTd"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </form>
