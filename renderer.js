@@ -33,6 +33,9 @@ document.querySelector('#searchButton').addEventListener('click', () => {
 
             $("#pressureTd").empty();
             $("#pressureTd").append(data.main.pressure + " hpa")
+
+            $("#humidityTd").empty();
+            $("#humidityTd").append(data.main.humidity + " %")
         })
         // .fail(function () {
         //     $("#resultDiv").empty();
