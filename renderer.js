@@ -30,6 +30,9 @@ document.querySelector('#searchButton').addEventListener('click', () => {
 
             $("#windTd").empty();
             $("#windTd").append(data.wind.speed + " m/s")
+
+            $("#pressureTd").empty();
+            $("#pressureTd").append(data.main.pressure + " hpa")
         })
         // .fail(function () {
         //     $("#resultDiv").empty();
