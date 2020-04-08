@@ -26,7 +26,10 @@ document.querySelector('#searchButton').addEventListener('click', () => {
             $('#iconWeather').attr('src', iconUrl);
 
             $("#temperatureTd").empty();
-            $("#temperatureTd").append(data.main.temp + "°C")
+            $("#temperatureTd").append(Math.round(data.main.temp) + " °C")
+
+            $("#windTd").empty();
+            $("#windTd").append(data.wind.speed + " m/s")
         })
         // .fail(function () {
         //     $("#resultDiv").empty();
