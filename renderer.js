@@ -1,4 +1,5 @@
 require('dotenv').config();
+const moment = require("moment");
 
 document.querySelector('#searchButton').addEventListener('click', () => {
     const api_key = process.env.API_KEY;
@@ -36,6 +37,9 @@ document.querySelector('#searchButton').addEventListener('click', () => {
 
             $("#humidityTd").empty();
             $("#humidityTd").append(data.main.humidity + " %");
+
+            $("#sunriseTd").empty();
+            $("#sunriseTd").append(moment(data.sys.sunrise).format('LT'));
         })
         // .fail(function () {
         //     $("#resultDiv").empty();
