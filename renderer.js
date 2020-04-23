@@ -39,10 +39,10 @@ document.querySelector('#searchButton').addEventListener('click', () => {
             $("#humidityTd").append(data.main.humidity + " %");
 
             $("#sunriseTd").empty();
-            $("#sunriseTd").append(moment(data.sys.sunrise).format('LT'));
+            $("#sunriseTd").append(moment.unix(data.sys.sunrise).format('LT'));
 
             $("#sunsetTd").empty();
-            $("#sunsetTd").append(moment(data.sys.sunset).format('LT'));
+            $("#sunsetTd").append(moment.unix(data.sys.sunset).format('LT'));
         })
         // .fail(function () {
         //     $("#resultDiv").empty();
