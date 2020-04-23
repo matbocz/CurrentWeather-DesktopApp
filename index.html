@@ -10,23 +10,23 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div id="title">
+        <h2><b>Current Weather</b></h2>
+        <p>This app get data from <u>openweathermap.org</u></p>
+    </div>
     <div class="container">
-        <div class="row" style="text-align: center; padding: 20px;">
-            <h2><b>Current Weather</b></h2>
-            <p>This app get data from <u>openweathermap.org</u></p>
-        </div>
-
         <form>
             <div class="row">
                 <div class="six columns">
                     <label for="cityInput">City name:</label>
                     <input class="u-full-width" id="cityInput" type="text" placeholder="e.g. Paris">
 
-                    <input class="button" id="searchButton" type="button" value="Search">
-                    <input class="button" id="resetButton" type="reset" value="Reset">
+                    <input class="button-primary" id="searchButton" type="button" value="Search">
+                    <input class="button-primary" id="resetButton" type="reset" value="Reset">
                 </div>
 
                 <div class="six columns" id="messageDiv">
