@@ -2,7 +2,7 @@ const { app, BrowserWindow } = require('electron')
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 800,
+        width: 900,
         height: 600,
         webPreferences: {
             nodeIntegration: true
@@ -11,7 +11,7 @@ function createWindow() {
 
     win.loadFile('index.html')
 
-    win.webContents.openDevTools()
+    // win.webContents.openDevTools()
 }
 
 app.whenReady().then(createWindow)
