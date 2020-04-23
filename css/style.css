@@ -1,0 +1,16 @@
+body {
+    background-color: PapayaWhip;
+}
+
+td {
+    border-bottom: 1px solid #33C3F0;
+}
+
+#title {
+    background-color: #33C3F0;
+    color: #FFF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
