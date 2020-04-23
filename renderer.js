@@ -40,6 +40,9 @@ document.querySelector('#searchButton').addEventListener('click', () => {
 
             $("#sunriseTd").empty();
             $("#sunriseTd").append(moment(data.sys.sunrise).format('LT'));
+
+            $("#sunsetTd").empty();
+            $("#sunsetTd").append(moment(data.sys.sunset).format('LT'));
         })
         // .fail(function () {
         //     $("#resultDiv").empty();
