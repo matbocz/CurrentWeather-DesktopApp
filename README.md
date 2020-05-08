@@ -11,6 +11,7 @@ You can enter a city name and see information about current temperature, wind, p
 - jQuery
 - Moment.js
 - dotenv
+- Skeleton CSS
 
 ## Instruction
 - npm install
