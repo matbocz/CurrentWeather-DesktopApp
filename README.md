@@ -6,6 +6,12 @@ You can enter a city name and see information about current temperature, wind, p
 
 ![2020-05-08](https://user-images.githubusercontent.com/34821903/81429885-c8339b00-915e-11ea-9c2a-41c9d5282554.png)
 
+## Technologies
+- ElectronJS
+- jQuery
+- Moment.js
+- dotenv
+
 ## Instruction
 - npm install
 - get api key from https://openweathermap.org/ and put it into .env_sample file
